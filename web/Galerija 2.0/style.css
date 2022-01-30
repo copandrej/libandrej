@@ -1,0 +1,76 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+.galerijaOkvir {
+    position: relative;
+    left: 100px;
+    top: 50px;
+    width: 1100px;
+    height: 500px;
+    background-color: white;
+    -moz-user-select: none; 
+    -webkit-user-select: none; 
+    -ms-user-select:none; 
+    user-select:none;
+    -o-user-select:none;
+}
+.prostorZaSliko {
+    position: absolute;
+    left: 50px;
+    width: 800px;
+    height: 500px;
+    background-color: transparent;
+}
+.slikegalerija {
+    height: 600px;
+    width: auto;
+    display: none;
+    margin-left: auto;
+    margin-right: auto;
+    z-index: 98;
+    transition: 100ms;
+}
+.PremikVLevo, .PremikVDesno {
+    width: 60px;
+    height: 60px;
+    border-radius: 30px;
+    background-color: rgba(0, 0, 0, 0.205);
+    position: absolute;
+    top: 122%;
+    z-index: 98;
+    transition: 100ms;
+}
+.PremikVLevo:hover, .PremikVDesno:hover {
+    background-color: rgba(0, 0, 0, 0.356);
+}
+.PremikVLevo:hover i, .PremikVDesno:hover i {
+    border: solid rgba(0, 0, 0, 0.671);
+    border-width: 0 8px 8px 0;
+}
+.PremikVLevo {
+    left: 377px;
+}
+.PremikVDesno {
+    left: 477px;
+}
+i {
+    border: solid rgba(0, 0, 0, 0.431);
+    border-width: 0 8px 8px 0;
+    display: inline-block;
+    padding: 8px;
+    transition: 100ms;
+}
+.right {
+    transform: rotate(-45deg);
+    position: relative;
+    top: 17px;
+    left: 16px;
+}
+.left {
+    transform: rotate(135deg);
+    -webkit-transform: rotate(135deg);
+    position: relative;
+    top: 17px;
+    left: 21px;
+  }

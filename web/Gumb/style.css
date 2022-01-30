@@ -1,0 +1,24 @@
+.zg, .sp, .sr {
+	width: 60px;
+	height: 10px;
+	background-color: black;
+	margin: 10px;
+	transition: background-color 200ms, transform 300ms;
+}
+.knof {
+	display: inline-block;
+    cursor: pointer;
+}
+.spremeni {
+	background-color: transparent;
+}
+.spremenia  {
+	-ms-transform: translate(0px, 20px) rotate(45deg); /* IE 9 */
+    -webkit-transform: translate(0px, 20px) rotate(45deg); /* Safari */
+    transform: translate(0px, 20px) rotate(45deg);
+} 
+.spremeniaa {
+	-ms-transform: translate(0px, -20px) rotate(-45deg); /* IE 9 */
+    -webkit-transform: translate(0px, -20px) rotate(-45deg); /* Safari */
+    transform: translate(0px, -20px) rotate(-45deg);
+}
